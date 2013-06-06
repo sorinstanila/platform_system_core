@@ -32,8 +32,11 @@ __BEGIN_DECLS
  * frameworks/base/include/media/AudioSystem.h
  */
 
-/* device address used to refer to the standard remote submix */
-#define AUDIO_REMOTE_SUBMIX_DEVICE_ADDRESS "0"
+#define AMR_FRAMESIZE 32
+#define QCELP_FRAMESIZE 35
+#define EVRC_FRAMESIZE 23
+#define AMR_WB_FRAMESIZE 61
+#define AAC_FRAMESIZE 2048
 
 typedef int audio_io_handle_t;
 
