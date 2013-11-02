@@ -62,7 +62,6 @@ struct fstab_rec *fs_mgr_get_entry_for_mount_point(struct fstab *fstab, const ch
 int fs_mgr_is_voldmanaged(struct fstab_rec *fstab);
 int fs_mgr_is_nonremovable(struct fstab_rec *fstab);
 int fs_mgr_is_encryptable(struct fstab_rec *fstab);
-int fs_mgr_is_noemulatedsd(struct fstab_rec *fstab);
 int fs_mgr_swapon_all(struct fstab *fstab);
 #ifdef __cplusplus
 }
